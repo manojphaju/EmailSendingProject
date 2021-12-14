@@ -1,0 +1,171 @@
+﻿@model IEnumerable<GeneratePDF.Models.MasterModel>
+
+@{
+    ViewBag.Title = "PrintPDF";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@*<div style="text-align:right" hidden>@Html.ActionLink("PDF", "PrintPDF")</div>*@
+<style>
+    .jumbotron {
+        padding-top: 1px !important;
+        padding-bottom: 1px !important;
+        background-color: #0c4da3;
+        margin-bottom: 10px;
+    }
+
+    .table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th {
+        background-color: #f0f6ffc2;
+    }
+
+    .table-striped tr:first-child th {
+        background-color: #0c4da3 !important;
+        color: #ffffff;
+    }
+</style>
+<div class="row">
+    <div class="col-md-9 col-xs-8">
+        <div class="jumbotron">
+            <h4 style="text-align:center; font-size:25px; color:white"><b>Statement of Account</b></h4>
+        </div>
+    </div>
+    <div class="pull-right">
+        <img src="~/Image/nibl.jpg" style="height:60px; width:auto" />
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 col-xs-6" style="color:white">
+        <div class="jumbotron" style="padding-left: 10px; height: 135px;">
+            @foreach (var item in Model)
+            {
+
+
+                <h3><b>@Model.FirstOrDefault().accountDetails.FirstOrDefault().ACCT_NAME</b></h3>
+                <h4>@Model.FirstOrDefault().accountDetails.FirstOrDefault().Address</h4>
+                <h4>@Model.FirstOrDefault().accountDetails.FirstOrDefault().EMAIL_ID</h4>
+
+
+            }
+
+        </div>
+    </div>
+    <div class="col-md-6 col-xs-6" style="color:white">
+        <div class="jumbotron" style="padding-left: 10px; height: 135px;">
+            @foreach (var item in Model)
+            {
+                <h4>Statement Period <span class="col-md-offset-1"><span style="margin-left:-3px">:</span> @Model.FirstOrDefault().accountBalances.FirstOrDefault().From to @Model.FirstOrDefault().accountBalances.FirstOrDefault().To</span></h4>
+                foreach (var itm in Model.FirstOrDefault().accountDetails)
+                {
+                    <h4>Account Branch <span class="col-md-offset-1"><span style="margin-left:7px">:</span> @itm.Branch</span></h4>
+                    <h4>Account Type <span class="col-md-offset-1"><span style="margin-left:25px">:</span> <span style="font-size:17px">@itm.Scheme</span></span></h4>
+                    <h4>Account Number <span class="col-md-offset-1"><span style="margin-left:1px">:</span> @itm.FORACID</span></h4>
+                }
+
+
+            }
+
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12" style="color:white">
+        <div class="jumbotron" style="padding-left:10px">
+            <div style="text-align:center">SAVINGS ACCOUNT</div>
+            <div style="display:inline; float:right;"> </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<table class="table table-bordered table-striped" align="center">
+    <tr>
+        <th style="text-align:center">
+            Tran Date
+        </th>
+        <th style="text-align:center">
+            Particulars
+        </th>
+        <th style="text-align:center">
+            Value Date
+        </th>
+        <th style="text-align:center">
+            Debit
+        </th>
+        <th style="text-align:center">
+            Credit
+        </th>
+        <th style="text-align:center">
+            Balance
+        </th>
+    </tr>
+
+    @foreach (var item in Model.FirstOrDefault().accountStatementDetails)
+    {
+        <tr>
+            <td align="center">
+                @item.TranDate
+            </td>
+            <td>
+                @item.Particulars
+            </td>
+            <td align="center">
+                @item.ValueDate
+            </td>
+            <td align="right">
+                @item.Debit
+            </td>
+            <td align="right">
+                @item.Credit
+            </td>
+            <td align="right">
+                @item.Balance
+            </td>
+        </tr>
+    }
+
+</table>
+
+<hr />
+<div class="row">
+    <div class="col-md-12 col-xs-12" style="color:white">
+        <div class="jumbotron" style="padding-left:10px">
+            <h3 style="text-align:center; line-height:0">Account Summary</h3>
+            <hr style="margin-bottom:2px" />
+            <table border="0" cellpadding="15" align="center" style="line-height:0;">
+                <tr>
+                    <th>Opening Balance</th>
+                    <th>Debit Entries</th>
+                    <th>Closing Entries</th>
+                    <th>Closing Balance</th>
+                </tr>
+                @foreach (var item in Model.FirstOrDefault().accountBalances)
+                {
+                    <tr>
+                        <td align="center">@item.OpeningBalance</td>
+                        <td align="center">@item.DebitEntries</td>
+                        <td align="center">@item.CreditEntries</td>
+                        <td align="center">@item.ClosingBalance</td>
+                    </tr>
+
+                }
+
+            </table>
+
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-md-12 col-xs-12" style="color:white">
+        <div class="jumbotron" style="padding-left:10px">
+            <h4>NOTE: CHEQUE BOOKS ARE TO BE COLLECTED WITHIN 90 DAYS FROM THE DATE OF REQUEST OTHERWISE NPR 300.00 WILL BE LEVIED </h4>
+
+        </div>
+    </div>
+</div>
+
+

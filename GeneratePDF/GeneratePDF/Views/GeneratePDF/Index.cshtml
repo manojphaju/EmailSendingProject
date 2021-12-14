@@ -1,0 +1,22 @@
+﻿@model GeneratePDF.Models.MasterModel
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Details", "GeneratePDF", FormMethod.Post))
+{
+    <div class="row">
+        <div class="col-md-6">
+            <label>Account Number</label>
+        </div>
+        <div class="col-md-6">
+            @Html.EditorFor(model=> model.AccountNumber)
+        </div>
+    </div>
+    <br>
+    <div class="box-footer">
+        <input type="submit" style="margin-left:150px" class="btn btn-blue btn-big col-md-5" name="btnCommand" value="Submit" id="btnSubmit" />
+    </div>
+}

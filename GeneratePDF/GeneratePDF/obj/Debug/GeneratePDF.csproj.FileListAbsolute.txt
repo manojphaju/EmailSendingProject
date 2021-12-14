@@ -1,0 +1,262 @@
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\GeneratePDF.dll.config
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\GeneratePDF.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\GeneratePDF.pdb
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\csc.exe
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\csc.exe.config
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\csc.rsp
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\csi.exe
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\csi.exe.config
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\csi.rsp
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.AppContext.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.Console.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.IO.Compression.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.IO.Pipes.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.Claims.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.ValueTuple.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.Xml.XPath.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\vbc.exe
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\vbc.exe.config
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\vbc.rsp
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\VBCSCompiler.exe
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\Rotativa.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\System.Web.Helpers.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\System.Web.Mvc.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\System.Web.Razor.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\System.Web.Webpages.Deployment.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\System.Web.Webpages.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\System.Web.Webpages.Razor.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\System.Web.Razor.xml
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\System.Web.Webpages.xml
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\System.Web.Webpages.Deployment.xml
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\System.Web.Webpages.Razor.xml
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\System.Web.Helpers.xml
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\System.Web.Mvc.xml
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.csprojAssemblyReference.cache
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.csproj.CoreCompileInputs.cache
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.csproj.CopyComplete
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.dll
+C:\Users\SMKG\source\repos\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.pdb
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\GeneratePDF.dll.config
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\GeneratePDF.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\GeneratePDF.pdb
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\csc.exe
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\csc.exe.config
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\csc.rsp
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\csi.exe
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\csi.exe.config
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\csi.rsp
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.AppContext.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.Console.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.IO.Compression.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.IO.Pipes.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.Claims.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.ValueTuple.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.Xml.XPath.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\vbc.exe
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\vbc.exe.config
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\vbc.rsp
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\VBCSCompiler.exe
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\Newtonsoft.Json.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\Oracle.ManagedDataAccess.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\Rotativa.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Buffers.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Memory.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Net.Http.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Numerics.Vectors.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Text.Encodings.Web.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Text.Json.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.ValueTuple.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Web.Helpers.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Web.Mvc.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Web.Razor.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Web.Webpages.Deployment.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Web.Webpages.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Web.Webpages.Razor.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\Newtonsoft.Json.xml
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Buffers.xml
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Memory.xml
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Numerics.Vectors.xml
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Text.Encodings.Web.xml
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Text.Json.xml
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.ValueTuple.xml
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Web.Razor.xml
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Web.Webpages.xml
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Web.Webpages.Deployment.xml
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Web.Webpages.Razor.xml
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Web.Helpers.xml
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\System.Web.Mvc.xml
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.csproj.AssemblyReference.cache
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.csproj.CoreCompileInputs.cache
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.csproj.CopyComplete
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.dll
+C:\Users\manojph\Downloads\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.pdb
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\GeneratePDF.dll.config
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\GeneratePDF.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\GeneratePDF.pdb
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\csc.exe
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\csc.exe.config
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\csc.rsp
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\csi.exe
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\csi.exe.config
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\csi.rsp
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.Managed.Core.targets
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.AppContext.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.Collections.Immutable.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.Console.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.IO.Compression.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.IO.FileSystem.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.IO.Pipes.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.Reflection.Metadata.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.AccessControl.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.Claims.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.Security.Principal.Windows.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.ValueTuple.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.Xml.XmlDocument.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.Xml.XPath.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\vbc.exe
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\vbc.exe.config
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\vbc.rsp
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\VBCSCompiler.exe
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\roslyn\VBCSCompiler.exe.config
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\Microsoft.Web.Infrastructure.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\Newtonsoft.Json.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\Oracle.ManagedDataAccess.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\Rotativa.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Buffers.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Memory.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Net.Http.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Numerics.Vectors.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Security.Cryptography.Algorithms.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Security.Cryptography.Encoding.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Security.Cryptography.Primitives.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Security.Cryptography.X509Certificates.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Text.Encodings.Web.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Text.Json.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Threading.Tasks.Extensions.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.ValueTuple.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Web.Helpers.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Web.Mvc.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Web.Razor.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Web.Webpages.Deployment.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Web.Webpages.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Web.Webpages.Razor.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\Newtonsoft.Json.xml
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Buffers.xml
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Memory.xml
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Numerics.Vectors.xml
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Text.Encodings.Web.xml
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Text.Json.xml
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Threading.Tasks.Extensions.xml
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.ValueTuple.xml
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Web.Razor.xml
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Web.Webpages.xml
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Web.Webpages.Deployment.xml
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Web.Webpages.Razor.xml
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Web.Helpers.xml
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\System.Web.Mvc.xml
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\EmailSending Project\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.csproj.AssemblyReference.cache
+D:\EmailSending Project\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.csproj.CoreCompileInputs.cache
+D:\EmailSending Project\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.csproj.CopyComplete
+D:\EmailSending Project\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.pdb

@@ -1,0 +1,98 @@
+﻿@model IEnumerable<GeneratePDF.Models.EmployeeModel>
+
+@{
+    ViewBag.Title = "Employees";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<div style="text-align:right">@Html.ActionLink("Print Employees", "PrintAllEmployee")</div>
+<br />
+<style>
+    .jumbotron {
+        padding-top: 1px !important;
+        padding-bottom: 1px !important;
+        background-color: #0c4da3;
+    }
+  
+</style>
+<div class="row">
+    <div class="col-md-9 col-xs-8">
+        <div class="jumbotron">
+            <h4 style="text-align:center; font-size:25px; color:white"><b>Statement of Account</b></h4>
+        </div>
+    </div>
+    <div class="pull-right"  >
+        <img src="~/Image/nibl.jpg" style="height:60px; width:auto" />
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 col-xs-6" style="color:white">
+        <div class="jumbotron" style="padding-left:10px">
+            <h4>@Model.FirstOrDefault().Name</h4>
+            <h4>@Model.FirstOrDefault().Designation</h4>
+            <h4>@Model.FirstOrDefault().Salary</h4>
+        </div>
+    </div>
+    <div class="col-md-6 col-xs-6" style="color:white">
+        <div class="jumbotron" style="padding-left:10px">
+            <h4>Statement Date: @DateTime.Now.ToString("yyyy/MM/dd")</h4>
+            <h4>Statement Period: @DateTime.Today.AddDays(-1).ToString("yyyy/MM/dd") To @DateTime.Now.ToString("yyyy/MM/dd")</h4>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12" style="color:white">
+        <div class="jumbotron" style="padding-left:10px">
+            <div style="display: inline-block; clear:both;">SAVINGS ACCOUNT-SCBNL SHAREHOLDER</div>
+            <div style="display:inline; float:right;"> 18288319801 (NPR)</div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Designation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Salary)
+        </th>
+        <th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Designation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+            <td>
+                @Html.ActionLink("Details", "Employee", new { id = item.ID })
+            </td>
+        </tr>
+    }
+
+</table>
+
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <h4>hola hola holahola hola holahola hola holahola hola holahola hola holahola hola holahola hola holahola hola holahola hola holahola hola holahola hola holahola hola holahola hola holahola hola holahola hola holahola hola holahola hola holahola hola holahola hola holahola hola holahola hola holahola hola holahola hola holahola hola hola</h4>
+
+    </div>
+</div>
+
