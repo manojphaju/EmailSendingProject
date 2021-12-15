@@ -5,18 +5,22 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<p style="text-align:right">@Html.ActionLink("PDF", "PrintPDF")</p>
+<p style="text-align:right; margin-top:-55px">@Html.ActionLink("PDF", "PrintPDF")</p>
 <style>
     .jumbotron {
         padding-top: 1px !important;
         padding-bottom: 1px !important;
         background-color: #0c4da3;
-        margin-bottom: 10px;
+        margin-bottom: 14px;
+    }
+
+    a {
+        color: #fff;
     }
 
 
     .table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th {
-        background-color: #f0f6ffc2;
+        background-color: #d2e8fb;
     }
 
     .table-striped tr:first-child th {
@@ -25,19 +29,19 @@
     }
 </style>
 <div class="row">
-    <div class="col-md-9 col-xs-8">
+    <div class="col-md-10 col-xs-9">
         <div class="jumbotron">
             <h4 style="text-align:center; font-size:25px; color:white"><b>Statement of Account</b></h4>
         </div>
     </div>
-    <div class="pull-right">
-        <img src="~/Image/nibl.jpg" style="height:60px; width:auto" />
+    <div class="pull-left">
+        <img src="~/Image/nibl.png" style="height:60px; width:auto" />
     </div>
 </div>
 
 <div class="row">
     <div class="col-md-6 col-xs-6" style="color:white">
-        <div class="jumbotron" style="padding-left:10px; height:135px;">
+        <div class="jumbotron" style="padding-left: 10px; height: 135px; background-color: #e5f3ff; color: #0c4da3">
             @foreach (var item in ViewBag.accountDetails)
             {
                 <h3><b>@item.ACCT_NAME</b></h3>
@@ -49,18 +53,17 @@
         </div>
     </div>
     <div class="col-md-6 col-xs-6" style="color:white">
-        <div class="jumbotron" style="padding-left:10px; height:135px;">
-            @foreach (var item in ViewBag.accountBalance)
-            {
-                <h4>Statement Period <span class="col-md-offset-1"><span style="margin-left:-4px">:</span> @item.From to @item.To</span></h4>
-                foreach (var itm in ViewBag.accountDetails)
+        <div class="jumbotron" style="padding-left: 10px; height: 135px; background-color: #e5f3ff; color: #0c4da3">
+             
+                @foreach (var itm in ViewBag.accountDetails)
                 {
-                    <h4>Account Branch <span class="col-md-offset-1"><span style="margin-left:7px">:</span> @itm.Branch</span></h4>
-                    <h4>Account Type <span class="col-md-offset-1"><span style="margin-left:25px">:</span><span style="font-size:17px"> @itm.Scheme</span></span></h4>
-                    <h4>Account Number <span class="col-md-offset-1"><span style="margin-left:0px">:</span> @itm.FORACID</span></h4>
+                    <h4>Account Branch <span class="col-md-offset-1"><span style="margin-left:8px">:</span> @itm.Branch</span></h4>
+                    <h4>Account Type <span class="col-md-offset-1"><span style="margin-left:24px">:</span><span style="font-size:17px"> @itm.Scheme</span></span></h4>
+                    <h4>Account Number <span class="col-md-offset-1"><span style="margin-left:2px">:</span> @itm.FORACID</span></h4>
+                    <h4>Currency <span class="col-md-offset-1"><span style="margin-left:60px">:</span> @itm.Curr</span></h4>
                 }
 
-            }
+            
 
         </div>
     </div>
@@ -68,8 +71,12 @@
 <div class="row">
     <div class="col-md-12" style="color:white">
         <div class="jumbotron" style="padding-left:10px">
-            <div style="text-align:center">SAVINGS ACCOUNT</div>
-            <div style="display:inline; float:right;"> </div>
+            @foreach (var item in ViewBag.accountBalance)
+            {
+                <h4 style="text-align: center; font-size: 25px;"><b>Statement Period:</b> <span style="font-size:large">@item.From to @item.To</span></h4>
+                <div style="display:inline; float:right;"> </div>
+            }
+
         </div>
     </div>
 
@@ -83,7 +90,7 @@
             Tran Date
         </th>
         <th style="text-align:center">
-            Particulars
+            Particular
         </th>
         <th style="text-align:center">
             Value Date
@@ -128,21 +135,23 @@
 <hr />
 <div class="row">
     <div class="col-md-12 col-xs-12" style="color:white">
-        <div class="jumbotron" style="padding-left:10px;">
-            <h3 style="text-align:center; line-height:0">Account Summary</h3>
-            <hr style="margin-bottom:2px" />
+
+        <div class="jumbotron" style="margin-bottom:0px">
+            <h4 style="text-align:center; font-size:25px"><b>Account Summary</b></h4>
+        </div>
+        <div class="jumbotron" style="padding-left: 10px; background-color: #d2e8fb; color:#0a3874">
             <table border="0" cellpadding="15" align="center" style="line-height:0;">
-                <tr style="background-color:">
+                <tr style="font-size:large">
                     <th>Opening Balance</th>
                     <th>Debit Entries</th>
-                    <th>Closing Entries</th>
+                    <th>Credit Entries</th>
                     <th>Closing Balance</th>
                 </tr>
 
 
                 @foreach (var item in ViewBag.accountBalance)
                 {
-                    <tr>
+                    <tr style="font-size:large">
                         <td align="center">@item.OpeningBalance</td>
                         <td align="center">@item.DebitEntries</td>
                         <td align="center">@item.CreditEntries</td>
@@ -161,8 +170,8 @@
 
 <div class="row">
     <div class="col-md-12 col-xs-12" style="color:white">
-        <div class="jumbotron" style="padding-left:10px">
-            <h4>NOTE: CHEQUE BOOKS ARE TO BE COLLECTED WITHIN 90 DAYS FROM THE DATE OF REQUEST OTHERWISE NPR 300.00 WILL BE LEVIED </h4>
+        <div class="jumbotron" style="padding-left: 10px;">
+            <h4 style="font-size:1.3rem">NOTE: CHEQUE BOOKS ARE TO BE COLLECTED WITHIN 90 DAYS FROM THE DATE OF REQUEST OTHERWISE NPR 300.00 WILL BE LEVIED </h4>
 
         </div>
     </div>

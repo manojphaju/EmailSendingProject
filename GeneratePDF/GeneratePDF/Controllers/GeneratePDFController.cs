@@ -102,7 +102,7 @@ namespace GeneratePDF.Controllers
                     jsonDetail.ValueDate = item.ValueDate;
                     list.Add(jsonDetail);
                 }
-                return list;
+                return list.OrderByDescending(x=>x.TRAN_DATE).ToList();
             }
         }
         #endregion
@@ -186,9 +186,9 @@ namespace GeneratePDF.Controllers
                     AccountBalance jsonDetail = new AccountBalance();
                     jsonDetail.OpeningBalance = item.OpeningBalance;
                     jsonDetail.TotalDebit = item.TotalDebit;
-                    jsonDetail.DebitEntries = item.DebitEntries;
+                    jsonDetail.DebitEntries = item.DebitEntries.ToString().Replace(".00",string.Empty);
                     jsonDetail.TotalCredit = item.TotalCredit;
-                    jsonDetail.CreditEntries = item.CreditEntries;
+                    jsonDetail.CreditEntries = item.CreditEntries.ToString().Replace(".00", string.Empty);
                     jsonDetail.ClosingBalance = item.ClosingBalance;
                     jsonDetail.From = item.From;
                     jsonDetail.To = item.To;
