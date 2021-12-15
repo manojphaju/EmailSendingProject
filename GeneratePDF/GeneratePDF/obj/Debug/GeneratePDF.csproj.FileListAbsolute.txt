@@ -260,3 +260,6 @@ D:\EmailSending Project\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.csproj.Cor
 D:\EmailSending Project\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.csproj.CopyComplete
 D:\EmailSending Project\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.dll
 D:\EmailSending Project\GeneratePDF\GeneratePDF\obj\Debug\GeneratePDF.pdb
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\BouncyCastle.Crypto.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\itextsharp.dll
+D:\EmailSending Project\GeneratePDF\GeneratePDF\bin\itextsharp.xml

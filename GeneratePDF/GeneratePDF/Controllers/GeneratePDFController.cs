@@ -1,10 +1,12 @@
 ﻿using GeneratePDF.Models;
+using iTextSharp.text.pdf;
 using Newtonsoft.Json;
 using Oracle.ManagedDataAccess.Client;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -53,11 +55,35 @@ namespace GeneratePDF.Controllers
         /// Print Employees details
         /// </summary>
         /// <returns></returns>
-        public async Task<ActionResult> PrintPDF()
+        public ActionResult PrintPDF()
         {
             var AccountNumber = Session["accountNumber"].ToString();
-            var report = new Rotativa.ActionAsPdf("Details", new { AccountNumber });
-            return report;
+            var report = new Rotativa.ActionAsPdf("Details", new { AccountNumber })
+            {
+                FileName = "StatementDetails.pdf"
+            };
+
+            //save file to path
+            byte[] pdfData = report.BuildFile(ControllerContext);
+            String path_name = "~/PDF/";
+            var pdfPath = Path.Combine(Server.MapPath(path_name + report.FileName));
+            using (var fileStream = new FileStream(pdfPath, FileMode.Create, FileAccess.Write))
+            {
+                fileStream.Write(pdfData, 0, pdfData.Length);
+            }
+
+            //encrypt file
+            var storeEncryptedFile = ConfigurationManager.AppSettings["EncryptedFileLocation"];
+            using (var input = new FileStream(pdfPath, FileMode.Open, FileAccess.Read, FileShare.Read))
+            using (var output = new FileStream(storeEncryptedFile+"StatementsDetails.pdf", FileMode.Create, FileAccess.Write, FileShare.None))
+            {
+                var reader = new PdfReader(input);
+                var pdfPassword = ConfigurationManager.AppSettings["PDFPassword"];
+                PdfEncryptor.Encrypt(reader, output, true, pdfPassword, "", PdfWriter.ALLOW_PRINTING);           
+            }
+            byte[] fileBytes = System.IO.File.ReadAllBytes(storeEncryptedFile + "StatementsDetails.pdf");          
+            return File(fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, "Statements.pdf");
+
         }
         #endregion
 
@@ -102,7 +128,8 @@ namespace GeneratePDF.Controllers
                     jsonDetail.ValueDate = item.ValueDate;
                     list.Add(jsonDetail);
                 }
-                return list.OrderByDescending(x=>x.TRAN_DATE).ToList();
+                //return list.OrderByDescending(x=>x.TRAN_DATE).ToList();
+                return list;
             }
         }
         #endregion
@@ -199,5 +226,6 @@ namespace GeneratePDF.Controllers
             }
         }
         #endregion
+
     }
 }
